@@ -1,7 +1,7 @@
 Model public_activation_codes {
   type: 'table'
-  label: "Activation Codes"
-  description: "<b>abcxyzccccd</b>"
+  label: "Activation Codess"
+  description: ""
   data_source_name: 'development_2'
   dimension activation_type {
     label: "Activation Type"
@@ -123,6 +123,6 @@ Model public_activation_codes {
     type: "number"
     definition: @sql {{ #SOURCE.impersonator_id }};;
   }
-  owner: "admin@domain.com"
+  owner: "admin@domain.comm"
   table_name: "\"public\".\"activities\""
 }

@@ -1,11 +1,11 @@
 Dataset test_dataset {
-  label: "Test Datasett"
-  description: "ABCXYZd"
+  label: "Test Datasettt"
+  description: ""
   data_source_name: "development_1"
   models: [
     public_activation_codes
   ]
   relationships: [
   ]
-  owner: "admin@domain.comm"
+  owner: "admin@domain.commm"
 }
